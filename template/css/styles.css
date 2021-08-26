@@ -1,0 +1,63 @@
+.botones{
+    border-radius: 10px;
+    background-color: black;
+    padding: 30px;
+    height: 730px;
+    width: 470px;
+}
+.button{
+    width: 118px;
+    height: 110px;
+    font-size: 50px;
+    background: lightgrey;
+    border-style: solid;
+    border-color: black;
+    margin-left: -9px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: white;
+}
+#resultado{
+    height: 90px;
+    width: 470px;
+    font-size: 60px;
+    color: white;
+    background: black;
+    border-radius: 5px;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 465px;
+}
+#historial{
+    max-width: 465px;
+    height: 40px;
+    width: 470px;
+    font-size: 25px;
+    color: cadetblue;
+    text-align: right;
+}
+#igual, #reset{
+    background: orange;
+    width: 237px;
+    height: 110px;
+}
+#igual:hover, #reset:hover{
+    background-color: yellow;
+}
+#divisor, #porcentaje, #multiplicador,
+#resta, #suma, #decimal{
+    background: grey;
+    color: white;
+}
+#divisor:hover, #porcentaje:hover, #multiplicador:hover,
+#resta:hover, #suma:hover, #decimal:hover{
+    background-color: darkgrey;
+}
+
+body{
+    font-family: monospace, Serif, Arial;
+    background: black;
+}
