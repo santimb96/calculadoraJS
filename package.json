@@ -6,7 +6,9 @@
   "scripts": {
     "test": "jest",
     "start": "electron template/js/main.js",
-    "build": "electron-packager . --platform=win32 --arch=x64 --overwrite"
+    "build": "electron-packager . --platform=win32 --arch=x64 --overwrite",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64",
+    "package-linux": "electron-packager . --overwrite --asar=true --platform=linux --arch=x64"
   },
   "author": "Santi Martinez aka 'Hiro'",
   "license": "CC0-1.0",
