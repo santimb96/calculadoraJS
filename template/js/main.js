@@ -4,15 +4,21 @@ const url = require ("url");
 
 function crearVentana () {
     const ventana = new BrowserWindow({
-        width: 572,
-        height: 858})
+        width: 1000,
+        height: 1000,
+        //width: 572,
+        //height: 858,
+        resizable: false,
+        maximizable: false,
+        minimizable: false
+    })
     ventana.loadURL(url.format({
         pathname: path.join(__dirname, '../index.html'),
         protocol: 'file:',
         slashes: true
         /*webPreferences: {
-            /!*preload: path.join(__dirname, "preload.js")
-        }*!/*/
+            preload: path.join(__dirname, "preload.js")
+        }*/
     }))
     /*ventana.loadFile("../index.html");*/
 }

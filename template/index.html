@@ -5,7 +5,9 @@
     <title>calculadora</title>
     <link rel="stylesheet" href="./css/styles.css"></head>
 <body>
-<div class="botones">
+<div id="contenedor" class="contenedor" style="display:none"></div>
+<div id="contenido" class="botones">
+    <button id="memoria" class="button" onclick ="APP.mostrar()">H</button>
     <div id="historial"></div>
     <div id="resultado"></div>
     <br>
@@ -27,7 +29,9 @@
     <button class="button" value="0">0</button>
     <button class="button" id="decimal" value=".">.</button>
     <button class="button" id="igual" value="=">=</button>
+    <button class="button" id="tReset" value="TR">TR</button>
 </div>
+
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="js/index.js"></script>
 </body>

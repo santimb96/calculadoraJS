@@ -4,6 +4,18 @@
     padding: 30px;
     height: 730px;
     width: 470px;
+    float: left;
+}
+.contenedor{
+    border-radius: 10px;
+    width: 250px;
+    height: 400px;
+    color: cadetblue;
+    background-color: black;
+    float: right;
+    border: grey 5px solid;
+    margin-right: 140px;
+    padding-left: 10px;
 }
 .button{
     width: 118px;
@@ -39,13 +51,37 @@
     color: cadetblue;
     text-align: right;
 }
+
 #igual, #reset{
-    background: orange;
+    background: darkorange;
     width: 237px;
     height: 110px;
 }
+#igual{
+    width: 118px;
+}
+#tReset{
+    background: darkred;
+    color: white;
+}
+#tReset:hover{
+    background: lightcoral;
+    color: black;
+}
 #igual:hover, #reset:hover{
-    background-color: yellow;
+    background-color: orange;
+}
+#memoria{
+    border-radius: 5px;
+    background: cadetblue;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+#memoria:hover{
+    background: lightblue;
+    color: black;
 }
 #divisor, #porcentaje, #multiplicador,
 #resta, #suma, #decimal{
